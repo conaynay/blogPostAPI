@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: VjswDSvGUPNX69lX9qkHQvPcqWDGHsVKKTpaLTmR1tM/xGyqMA6B6iAc2CjcJ5mUeTjS+bMvHqk43Fiv0JbqSdmgqn30Es7GK9Y15s5X2QLhdRa2L5qG5WpdXQ19W5RiQsjNe2ZNSJYL41dHUA2AXmx3Qa5Pi0S/WUllPvpB3wSs8YWYdrLwdfD+mJtdrZj4Nh1JmSASi10f1ekS0a0Gpp42n/7uC2EfwHGav84LaX7xLcp+ZRpFTpp47tpScHDW9Gr31G0pujdVV70KOemqyK/nYk40mUTOrG0pFn/9SF5MLice/iIDl9KbTmnL/YDL1lufJDuanYXqHFaTp7/9GZ1yw8zKM0Tr40FgkdBc5SzuUlGnTQT/58Xt0ydC22BZeE+XxucIYI7F5EcOv9C3QMD+ZW88SJr3FC363b/nJRCQgEdtrmudB/9ZTQTCfgx3rL4nAe6qNjMj3X6s27bYi9sCflueWL+lyjbS2EziYbnwdETZKgdf2f+//adqJehTeYJtX7lZLhwVfwJh6zs/sBos83eHpX9IzCdEkfdYCp8/zOawVuzNkmtXgLAfUt7V+uj5be8787x1n/ey0wruxDgEKyFm64tjXITdSUQ0vi8SyT28KtWqYa6YLVi0cZSQOnHQIX5sJ2qELqRZZjxepcRY2Oj7pQyAn1l5hUrePaw=
+  app: arcane-beach-77099
+  on:
+    repo: conaynay/blogPostAPI
